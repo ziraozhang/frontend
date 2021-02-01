@@ -54,6 +54,7 @@ class CarouselPage extends Component {
                 items.push(
                     <Carousel.Item
                     key={this.state.data.pics[i].src}
+                    interval={100000}
                     >
                         <img
                         className="d-block w-100"

@@ -33,7 +33,7 @@ class HomePage extends Component {
         return (
             <Row style={{minHeight:"80vh",justifyContent:"center",alignItems:"center"}}>
             <Col style={{borderColor:"transparent",backgroundColor:"transparent"}} xs={10}>
-                <CarouselPage data={this.state.data} interval={5000} />
+                <CarouselPage data={this.state.data} interval={null} />
             </Col>
             </Row>
         );
